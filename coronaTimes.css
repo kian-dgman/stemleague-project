@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 130%;
+    margin: 0 auto;
+    background-color: #612940;
+    color: white;
+}
+
+#body-div {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 0;
+}
+
+.arrow {
+    font-size: 75px;
+    margin: 100px 0 300px 0;
+}
+
+span:hover {
+    cursor: default;
+    color: black;
+}
+
+#date {
+    background-color: #575A5E;
+    display: inline;
+    padding: 10px;
+}
+
+#info-section {
+    width: 50%;
+    margin: 0 0 10px 0;
+    padding: 0 50px;
+    background-color: #575A5E;
+}
+
+#hidden-section {
+    visibility: hidden;
+}
+
+hr {
+    width: 70%;
+    border: 3px solid white;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
